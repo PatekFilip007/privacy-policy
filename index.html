@@ -1,91 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Privacy Policy - Peak</title>
-    <style> 
-        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; padding: 2em; line-height: 1.6; color: #333; max-width: 800px; margin: auto; } 
-        h1, h2, h3 { color: #2c3e50; }
-        .section { margin-bottom: 20px; }
-        ul { margin-bottom: 10px; }
-        code { background: #f4f4f4; padding: 2px 4px; }
+    <meta name="description" content="Peak's privacy policy: how we collect, use, protect, and delete your information.">
+    <style>
+        * { box-sizing: border-box; }
+        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; padding: 2em; line-height: 1.6; color: #333; max-width: 800px; margin: auto; background: #fff; }
+        h1, h2, h3 { color: #2c3e50; line-height: 1.3; }
+        h2 { margin-top: 1.5em; }
+        ul { margin-bottom: 10px; padding-left: 1.5em; }
+        li { margin-bottom: 0.35em; }
+        a { color: #1557a0; overflow-wrap: anywhere; }
+        a:focus-visible { outline: 2px solid #1557a0; outline-offset: 3px; }
+        code { background: #f4f4f4; padding: 2px 4px; overflow-wrap: anywhere; }
+        hr { border: 0; border-top: 1px solid #ddd; margin: 2em 0; }
+        table { width: 100%; border-collapse: collapse; margin: 1em 0; }
+        th, td { text-align: left; vertical-align: top; padding: 0.65em; border: 1px solid #ddd; overflow-wrap: anywhere; }
+        th { background: #f4f4f4; }
+        @media (max-width: 600px) { body { padding: 1.25em; } th, td { padding: 0.5em; } }
     </style>
 </head>
 <body>
-
+<main>
 <h1>Privacy Policy</h1>
-<p>This privacy policy applies to the <strong>Peak</strong> app (hereby referred to as "Application") created by <strong>Peak</strong> (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".</p>
-
-<div class="section">
-    <h2>1. Information Collection and Use</h2>
-    <p>The Application collects information to provide and improve its services. This includes:</p>
-    <ul>
-        <li><strong>Personal Data:</strong> We store your <code>username</code> and <code>email</code> in Google Firestore. Note: Your username is public to other users; your email remains private.</li>
-        <li><strong>User Content:</strong> Data regarding your user account, company creation, skills added, skill progress, assigned projects, the company you are a part of, and private chat messages are stored securely in our databases (Firestore/Supabase).</li>
-        <li><strong>Usage Analytics:</strong> To optimize learning plans, we collect specific metrics: 
-            <ul>
-                <li>Scroll speed and completion rates of skill plans.</li>
-                <li>Time to first click.</li>
-                <li>User feedback (Likes/Dislikes) on learning modules.</li>
-            </ul>
-        </li>
-    </ul>
-</div>
-
-<div class="section">
-    <h2>2. Device Permissions</h2>
-    <p>To provide its core features, the Application requires access to the following on your mobile device:</p>
-    <ul>
-        <li><strong>Camera:</strong> To allow you to take and upload a profile picture.</li>
-        <li><strong>Microphone (Record Audio):</strong> To enable Speech-to-Text (STT) functions and to send voice messages in chats.</li>
-        <li><strong>Storage (Read/Write):</strong> To upload media for projects and send images/videos within the chat features.</li>
-        <li><strong>Internet:</strong> To sync data with Firestore, Supabase, and AI services.</li>
-    </ul>
-</div>
-
-<div class="section">
-    <h2>3. Artificial Intelligence (AI)</h2>
-    <p>The Application utilizes AI technologies to enhance your experience:</p>
-    <ul>
-        <li><strong>Content Generation:</strong> Skill learning plans and certain project information are generated via AI using data stored in Supabase.</li>
-        <li><strong>Processing:</strong> AI may process user-inputted project details to generate automated suggestions or structures.</li>
-    </ul>
-</div>
-
-<div class="section">
-    <h2>4. Third-Party Services</h2>
-    <p>The Application uses third-party services that may collect information used to identify you. Links to their privacy policies:</p>
-    <ul>
-        <li><a href="https://firebase.google.com/support/privacy" target="_blank">Google Analytics for Firebase / Firestore</a></li>
-        <li><a href="https://supabase.com/privacy" target="_blank">Supabase</a></li>
-    </ul>
-</div>
-
-<div class="section">
-    <h2>5. Data Retention & Deletion</h2>
-    <p>The Service Provider will retain user-provided data for as long as you use the Application. If you wish to have your data (including account and personal info) deleted, please contact us at <strong>patrikfilip11@gmail.com</strong>.</p>
-</div>
-
-<div class="section">
-    <h2>6. Children's Privacy</h2>
-    <p>The Application does not address anyone under the age of 13. If we discover a child under 16 has provided personal information, we will delete it immediately. Parents should contact us if they become aware of such data entry.</p>
-</div>
-
-<div class="section">
-    <h2>7. Security</h2>
-    <p>We value your trust in providing us your personal information and strive to use commercially acceptable means of protecting it. However, no method of transmission over the internet is 100% secure.</p>
-</div>
-
-<div class="section">
-    <h2>8. Changes to This Policy</h2>
-    <p>We may update our Privacy Policy from time to time. You are advised to review this page periodically for any changes. This policy is effective as of <strong>2026-02-05</strong>.</p>
-</div>
-
-<div class="section">
-    <h2>9. Contact Us</h2>
-    <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at <strong>patrikfilip11@gmail.com</strong>.</p>
-</div>
-
+<p><strong>Effective date: 13 October 2026</strong></p>
+<p>This privacy policy explains how Peak (&quot;Peak&quot;, &quot;we&quot;, &quot;us&quot;) handles your information when you use the Peak mobile app (the &quot;App&quot;) and your public Peak portfolio page at <code>peakofficial.app</code> (together, the &quot;Service&quot;). Peak is a free service for learning skills, earning certifications, building a portfolio, and working with others in companies and projects.</p>
+<p>If you have any questions, contact us at <strong><a href="mailto:peakofficial.app@gmail.com">peakofficial.app@gmail.com</a></strong>.</p>
+<hr>
+<h2>1. Information we collect</h2>
+<h3>Information you give us</h3>
+<ul>
+<li><strong>Account details.</strong> Your email address, your password (handled by Firebase Authentication; we never see it), or the account details shared by Sign in with Apple or Google, including your name when the provider shares it.</li>
+<li><strong>Profile.</strong> Your display name, username (handle), profile photo, and headline.</li>
+<li><strong>Learning activity.</strong> The skills you start, your progress through lessons, your answers and written work, level challenge submissions, the certifications you earn, your learning streak, and your reasons for learning that you choose during onboarding.</li>
+<li><strong>Peak Mentor.</strong> The questions you ask Peak Mentor, by text or by voice, and a short per-skill memory of your learning that Mentor uses to help you.</li>
+<li><strong>Companies, roles and projects.</strong> Companies you create or join, your role in them, job applications (including your note and any files you attach), projects you are assigned, and the work and files you deliver.</li>
+<li><strong>Messages.</strong> Direct messages, project chats, and company chats, including text, photos, videos, voice messages, reactions, and items you share (such as a portfolio, role, or company).</li>
+<li><strong>Network.</strong> People you follow, your &quot;open to collaborate&quot; settings, and users you block or report.</li>
+<li><strong>Support.</strong> Anything you send us by email.</li>
+</ul>
+<h3>Information collected automatically</h3>
+<ul>
+<li><strong>Product analytics.</strong> How you use the App: screens and actions, learning events (such as starting or completing a lesson), app version, a session identifier, an installation identifier, and your account identifier when you are signed in. We use this to understand and improve Peak. We collect it through Google Analytics for Firebase and our own database.</li>
+<li><strong>Diagnostics.</strong> Crash reports and limited error codes from release builds, through Firebase Crashlytics.</li>
+<li><strong>Device and security information.</strong> Device and app integrity checks through Firebase App Check (Apple App Attest), used to protect the Service from abuse.</li>
+<li><strong>Notifications.</strong> A push notification token, if you allow notifications, and your notification settings.</li>
+<li><strong>Time zone.</strong> Your device&#39;s time zone, so that streaks and daily reminders follow your local day.</li>
+<li><strong>Advertising measurement (only with your permission).</strong> See section 5.</li>
+</ul>
+<p>We do not collect your precise location, contacts, or health data.</p>
+<hr>
+<h2>2. How we use your information</h2>
+<p>We use your information to:</p>
+<ul>
+<li>create and run your account, and let you sign in;</li>
+<li>deliver lessons, grade your work, award levels and certifications, and track your streak;</li>
+<li>give you help from Peak Mentor and read lessons aloud;</li>
+<li>show your portfolio to other Peak users and, if you keep it on, on the web;</li>
+<li>run companies, projects, applications, and chats;</li>
+<li>send notifications you have allowed, such as messages, reminders, and updates about your work;</li>
+<li>keep the Service safe, prevent abuse and cheating, and handle reports;</li>
+<li>understand how Peak is used, fix problems, and improve the Service;</li>
+<li>measure our advertising, only if you allow it (section 5).</li>
+</ul>
+<p>We do not sell your personal data.</p>
+<hr>
+<h2>3. What other people can see</h2>
+<ul>
+<li><strong>Other Peak users</strong> can see your profile: display name, username, photo, headline, the skills you are learning, your certifications, verified project work, and the companies you belong to (unless you hide them on your portfolio). Your email address is always private.</li>
+<li><strong>Your public web portfolio.</strong> Your portfolio is also available as a public web page at <code>peakofficial.app/u/&lt;your username&gt;</code>, which anyone with the link can open. It shows the same kind of information as your in-app portfolio, but never your email address, private project deliverables, or companies you have hidden. You can <strong>turn the page off</strong> or <strong>keep it out of search engines</strong> at any time in the App (Portfolio → Edit → Web portfolio). Changes can take a few minutes to appear because the page is briefly cached. If you change your username, your old link stops pointing to you and can later be claimed by someone else.</li>
+<li><strong>Messages</strong> are visible to the participants of that conversation. Company and project chats are visible to members of that company or project.</li>
+<li><strong>Company data</strong> (projects, chats, roles, applications) is visible only to members of that company with the right role. When you apply to a company, its team can see your application and your portfolio.</li>
+<li><strong>Follows.</strong> People you follow can see that you follow them.</li>
+</ul>
+<hr>
+<h2>4. Artificial intelligence</h2>
+<p>Peak uses AI to generate and personalise learning content, grade your answers and submissions, power Peak Mentor, turn speech into text, read lessons aloud, and help with project and company tools.</p>
+<p>To do this, the relevant content is sent to these AI providers, which process it on our behalf:</p>
+<ul>
+<li><strong>Google</strong> (Gemini, Cloud Speech-to-Text, Cloud Text-to-Speech)</li>
+<li><strong>OpenAI</strong></li>
+<li><strong>Anthropic</strong></li>
+<li><strong>Deepgram</strong> (speech-to-text)</li>
+</ul>
+<p>What is sent depends on the feature. It can include your answers and written work, project details, your Mentor questions, voice recordings you make for Mentor or dictation, and lesson text to be read aloud. We send only what the feature needs. We do not use your content to train our own AI models.</p>
+<p>When you speak to Peak Mentor, speech recognition can also run on your device through Apple&#39;s speech recognition.</p>
+<hr>
+<h2>5. Advertising and tracking</h2>
+<p>Peak runs ads to reach new learners and uses the Meta (Facebook) SDK to measure which ads lead people to install and sign up.</p>
+<ul>
+<li><strong>Ad measurement is off until you turn it on.</strong> iOS asks for your permission through Apple&#39;s App Tracking Transparency prompt.</li>
+<li><strong>If you allow it,</strong> Peak shares limited conversion events (such as app installs, sign-ups, and logins) and your device&#39;s advertising identifier with Meta.</li>
+<li><strong>If you decline,</strong> nothing is sent to Meta, and the App works the same.</li>
+<li><strong>You can change your choice at any time:</strong> Settings → Privacy policy → <em>Allow ad measurement</em>, or in iOS Settings → Privacy &amp; Security → Tracking.</li>
+</ul>
+<p>Product analytics (section 1) is separate from ad measurement and continues when ad measurement is off. It is not used for cross-app tracking.</p>
+<hr>
+<h2>6. Device permissions</h2>
+<p>Peak asks for a permission only when a feature needs it, and you can change these at any time in iOS Settings.</p>
+<table>
+<thead>
+<tr>
+<th scope="col">Permission</th>
+<th scope="col">Why</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Camera</strong></td>
+<td>To take a profile picture.</td>
+</tr>
+<tr>
+<td><strong>Microphone</strong></td>
+<td>To ask Peak Mentor questions out loud and to record voice messages in chats.</td>
+</tr>
+<tr>
+<td><strong>Speech recognition</strong></td>
+<td>To turn your spoken Mentor questions into text, on your device.</td>
+</tr>
+<tr>
+<td><strong>Photos (add only)</strong></td>
+<td>To save photos and videos from chats to your library. Photos you choose to upload are picked with Apple&#39;s photo picker, which shares only the items you select.</td>
+</tr>
+<tr>
+<td><strong>Notifications</strong></td>
+<td>To send messages, reminders, and updates you have allowed.</td>
+</tr>
+<tr>
+<td><strong>Tracking</strong></td>
+<td>Optional ad measurement (section 5).</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>7. Third-party services</h2>
+<p>We rely on these service providers to run Peak. Each processes data under its own privacy policy:</p>
+<ul>
+<li><strong>Google Firebase</strong> (Authentication, Cloud Firestore, Cloud Storage, Cloud Functions, Cloud Messaging, App Check, Google Analytics for Firebase, Crashlytics): <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></li>
+<li><strong>Supabase</strong> (learning content): <a href="https://supabase.com/privacy">supabase.com/privacy</a></li>
+<li><strong>Google Sign-In:</strong> <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+<li><strong>Sign in with Apple:</strong> <a href="https://www.apple.com/legal/privacy/">apple.com/legal/privacy</a></li>
+<li><strong>Meta / Facebook SDK</strong> (only with your permission): <a href="https://www.facebook.com/privacy/policy/">facebook.com/privacy/policy</a></li>
+<li><strong>Vercel</strong> (hosts the public web portfolio at <code>peakofficial.app</code>): <a href="https://vercel.com/legal/privacy-policy">vercel.com/legal/privacy-policy</a></li>
+<li><strong>AI providers</strong> (section 4): <a href="https://policies.google.com/privacy">Google</a>, <a href="https://openai.com/policies/privacy-policy">OpenAI</a>, <a href="https://www.anthropic.com/legal/privacy">Anthropic</a>, <a href="https://deepgram.com/privacy">Deepgram</a></li>
+</ul>
+<p>We may also disclose information if required by law, to protect the safety of our users or the public, or as part of a merger or acquisition, in which case this policy will continue to apply to your information.</p>
+<hr>
+<h2>8. International transfers</h2>
+<p>Our providers may store and process your information on servers outside your country, including in the European Union and the United States. Where data leaves the European Economic Area, we rely on our providers&#39; safeguards, such as the European Commission&#39;s Standard Contractual Clauses.</p>
+<hr>
+<h2>9. Data retention and deletion</h2>
+<p>We keep your information for as long as you have a Peak account.</p>
+<p><strong>You can delete your account at any time in the App:</strong> Settings → Delete account. This permanently removes:</p>
+<ul>
+<li>your login and profile, and frees your username;</li>
+<li>your learning progress, streaks, certifications, and portfolio;</li>
+<li>your Peak Mentor history and learning memory;</li>
+<li>your profile photo;</li>
+<li>your follows;</li>
+<li>your private account data;</li>
+<li>analytics events linked to your account.</li>
+</ul>
+<p>Some information is shared with other people and stays with them after you leave:</p>
+<ul>
+<li>messages you sent in conversations with others;</li>
+<li>work you delivered to a company&#39;s project;</li>
+<li>applications a company has received.</li>
+</ul>
+<p>Deleted data may remain in our backups for up to 7 days before it is overwritten.</p>
+<p>If you cannot access the App, email <strong><a href="mailto:peakofficial.app@gmail.com">peakofficial.app@gmail.com</a></strong> from the address linked to your account and we will delete your account for you.</p>
+<hr>
+<h2>10. Your rights</h2>
+<p>Depending on where you live (for example, in the European Union or United Kingdom under the GDPR, or in California), you may have the right to:</p>
+<ul>
+<li>access the personal data we hold about you and receive a copy;</li>
+<li>correct inaccurate data (you can edit most of your profile in the App);</li>
+<li>delete your data;</li>
+<li>object to or restrict certain processing;</li>
+<li>move your data to another service (data portability);</li>
+<li>withdraw your consent at any time, for example to ad measurement, without affecting processing that happened before.</li>
+</ul>
+<p>To use any of these rights, email <strong><a href="mailto:peakofficial.app@gmail.com">peakofficial.app@gmail.com</a></strong>. We will respond within the time required by law. You also have the right to complain to your local data protection authority.</p>
+<p><strong>Legal bases (EEA and UK).</strong> We process your data:</p>
+<ul>
+<li>to provide the Service you signed up for (performance of a contract);</li>
+<li>for our legitimate interests in keeping Peak safe and improving it, which covers product analytics and diagnostics;</li>
+<li>with your consent, for ad measurement and optional permissions;</li>
+<li>where the law requires it.</li>
+</ul>
+<hr>
+<h2>11. Children&#39;s privacy</h2>
+<p>Peak is not intended for children under 13, or under the minimum age required to consent to data processing in your country (up to 16 in some EU countries). We do not knowingly collect personal data from children below that age. If you believe a child has given us personal data, contact us at <strong><a href="mailto:peakofficial.app@gmail.com">peakofficial.app@gmail.com</a></strong> and we will delete it.</p>
+<hr>
+<h2>12. Security</h2>
+<p>We protect your information with industry-standard measures:</p>
+<ul>
+<li>encrypted connections (HTTPS);</li>
+<li>encryption at rest by our cloud providers;</li>
+<li>access rules that limit each piece of data to the people who should see it;</li>
+<li>app integrity checks.</li>
+</ul>
+<p>No method of transmission or storage is completely secure, so we cannot guarantee absolute security.</p>
+<hr>
+<h2>13. Changes to this policy</h2>
+<p>We may update this privacy policy from time to time. When we do, we will update the effective date at the top of this page, and for significant changes we will let you know in the App. Please review this page periodically.</p>
+<hr>
+<h2>14. Contact us</h2>
+<p>If you have any questions or requests about this privacy policy or your data, contact us at:</p>
+<p><strong><a href="mailto:peakofficial.app@gmail.com">peakofficial.app@gmail.com</a></strong></p>
+</main>
 </body>
 </html>
